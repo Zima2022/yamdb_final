@@ -4,9 +4,8 @@ import os
 from api_yamdb.settings import CSV_DATA_DIR
 from django.core.management import BaseCommand
 from django.db import IntegrityError
-from users.models import User
-
 from reviews.models import Category, Comment, Genre, GenreTitle, Review, Title
+from users.models import User
 
 FILES_MODELS = {
     'category.csv': Category,
