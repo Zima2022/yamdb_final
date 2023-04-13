@@ -8,7 +8,6 @@ from users.models import User
 
 from api_yamdb.settings import CSV_DATA_DIR
 
-
 FILES_MODELS = {
     'category.csv': Category,
     'genre.csv': Genre,
