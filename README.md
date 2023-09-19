@@ -31,7 +31,7 @@
 Клонировать репозиторий, перейти в директорию с проектом.
 
 ```
-git clone git@github.com:PashkaVRN/yamdb_final.git
+git clone git@github.com:Zima2022/yamdb_final.git
 ```
 
 Cоздать и активировать виртуальное окружение:
